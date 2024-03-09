@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Search.java&apos; to &apos;mybatis.mini/src/main/java/mybatis.mini.service.domain&apos;&#x0D;&#x0A;- Original project: &apos;02.Model2MVCShop(Refactor &amp; Page Navigation)&apos;&#x0D;&#x0A;- Destination element: &apos;mybatis.mini/src/main/java/mybatis.mini.service.domain&apos;&#x0D;&#x0A;- Original element: &apos;com.model2.mvc.common.Search.java&apos;" description="Copy compilation unit" destination="=mybatis.mini/src\/main\/java&lt;mybatis.mini.service.domain" element1="/src\/main\/java&lt;com.model2.mvc.common{Search.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1709169047304" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,89 @@
+package com.model2.mvc.service.purchase.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import com.model2.mvc.common.SearchVO;
+import com.model2.mvc.common.util.DBUtil;
+import com.model2.mvc.service.product.ProductService;
+import com.model2.mvc.service.product.impl.ProductServiceImpl;
+import com.model2.mvc.service.product.vo.ProductVO;
+import com.model2.mvc.service.purchase.PurchaseService;
+import com.model2.mvc.service.purchase.impl.PurchaseServiceImpl;
+import com.model2.mvc.service.purchase.vo.PurchaseVO;
+import com.model2.mvc.service.user.UserService;
+import com.model2.mvc.service.user.impl.UserServiceImpl;
+
+
+public class PurchaseDAO {
+	
+	public void addPurchase(PurchaseVO purchase) throws Exception{
+		
+		Connection con = DBUtil.getConnection();
+		
+		String sql = "INSERT INTO transaction values"
+				+ "(seq_transaction_tran_no.nextval,?,?,?,?,?,?,?,sysdate)";
+					
+		PreparedStatement stmt = con.prepareStatement(sql);
+		//Pruco sprco = purchasevo.get(); 미리 user랑 purchase 불러와서 사용가능
+		
+		stmt.setInt(1, purchase.getPurchaseProd().getProdNo());
+		stmt.setString(2, purchase.getBuyer().getUserId());
+		stmt.setString(3, purchase.getPaymentOption());
+		stmt.setString(4, purchase.getReceiverName());
+		stmt.setString(5, purchase.getReceiverPhone());
+		stmt.setString(6, purchase.getDivyAddr());
+		stmt.setString(7, purchase.getDivyRequest());
+		
+		
+		stmt.executeUpdate();
+		
+		con.close();
+		
+		}		
+	
+	
+	public PurchaseVO getPurchase(int tranNo) throws Exception{
+		
+		Connection con = DBUtil.getConnection();
+		
+		String sql = "SELECT * FROM transaction where tran_no = ?";
+		
+		PreparedStatement stmt = con.prepareStatement(sql);
+		stmt.setInt(1,tranNo);
+		
+		ResultSet rs = stmt.executeQuery();
+		
+		PurchaseVO purchase = null;
+		
+		ProductService service = new ProductServiceImpl();
+		UserService servicee = new UserServiceImpl();
+		
+		
+		while(rs.next()) {
+			purchase = new PurchaseVO();
+			
+			purchase.setTranNo(rs.getInt("tran_no"));
+			purchase.setProdNo(service.getProduct(rs.getInt("prod_no")));
+			purchase.setBuyer(servicee.getUser(rs.getString("buyer_id")));
+			//굿
+			purchase.setPaymentOption(rs.getString("paymentOption"));
+			purchase.setReceiverName(rs.getString("receivername"));
+			purchase.setReceiverPhone(rs.getString("receiverPhone"));
+			purchase.setDivyAddr(rs.getString(""));
+			
+		}
+		
+		
+		return null;
+	}
+	
+	}
+
+
+
+

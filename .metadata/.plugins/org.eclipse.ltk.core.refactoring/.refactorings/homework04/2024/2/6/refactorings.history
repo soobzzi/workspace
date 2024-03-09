@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;addUser.html&apos; to &apos;servlet&apos;&#x0D;&#x0A;- Original project: &apos;homework04&apos;&#x0D;&#x0A;- Destination element: &apos;servlet&apos;&#x0D;&#x0A;- Original element: &apos;addUser.html&apos;" description="Copy file" element1="src/main/webapp/servlet/addUser.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707372582478" target="/homework04/src/main/webapp/servlet" units="0" version="1.0"/>
+</session>

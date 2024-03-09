@@ -1,0 +1,76 @@
+package spring.service.aop.advice;
+
+import java.lang.reflect.Method;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.aop.AfterReturningAdvice;
+import org.springframework.aop.MethodBeforeAdvice;
+import org.springframework.aop.ThrowsAdvice;
+
+public class TestAspectJ02 {
+	
+	public TestAspectJ02() {
+		System.out.println(":: TestAspectJ01 Default Constructor");
+	}
+	
+	@Pointcut("execution(* *.getMessage(..))")
+	public void work() {
+		System.out.println("work() pointcut call..............");
+	}
+	@Before("work()")//또는 Before(value="work()")
+	public void before(Method method, Object[] args, Object target)throws Throwable{
+		//무엇을 추상화 캡슐화 했는가?
+		//target. : 
+		
+		System.out.println("[before LOG]" +getClass() + ".before() start...");
+		System.out.println("[before LOG] tagetObject call method" +method);
+		
+		if(args.length != 0) {
+			System.out.println("[before LOG] tagetObject method 전달 argument : "+ args[0]);
+		}
+		
+		System.out.println("[before LOG]" +getClass()+".before() end....");
+	}
+
+	@Around("work()")//또는 @Around(value="work()")
+	public Object invoke(MethodInvocation invocation) throws Throwable {
+		 
+		System.out.println("[Around before]"+getClass() + ".invoke() start...");
+		System.out.println("[before LOG] tagetObject call method" + invocation);
+		if(invocation.getArguments().length != 0) {
+			System.out.println("[Around before] tagetObject method 전달 argument : "+ invocation.getArguments()[0]);
+		}
+		
+		Object obj = invocation.proceed();
+		
+		System.out.println("[Around after] 타겟 객체의 호출후 return value :"+ obj	);
+		System.out.println("[Around after]"+getClass() + ".invoke() end...");
+		
+		return obj;
+	}
+
+	@AfterReturning(pointcut="work()",returning = "returnValue")
+	public void afterReturning(Object returnValue, Method method, Object[] args, Object target) throws Throwable {
+		System.out.println("[after LOG]" + getClass()+ ".afterReturning() start...");
+		System.out.println("[after LOG] tagetObject call method" +method);
+		System.out.println("[after LOG] 타겟 객체의 호출 후 return value : "+ returnValue);
+		System.out.println("[after LOG]" + getClass() + ".afterReturning() end...");
+		
+	}
+	
+	@AfterThrowing(pointcut = "work()", throwing = "throwable")
+	public void afterThrowing(Throwable throwable) {
+		System.out.println("[exception]" + getClass()+ ".afterThrowing() start...");
+		System.out.println("[exception] Exception 발생...");
+		System.out.println("[exception] Exception Message : "+ throwable.getMessage());
+		System.out.println("[exception]" + getClass() + ".afterThrowing() end...");
+		
+	}
+
+}

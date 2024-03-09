@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 9 elements to &apos;01PJT/src&apos;&#x0D;&#x0A;- Original project: &apos;Examm&apos;&#x0D;&#x0A;- Destination element: &apos;01PJT/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     1.19&#x0D;&#x0A;     1.15&#x0D;&#x0A;     1.16&#x0D;&#x0A;     1.17&#x0D;&#x0A;     1.18&#x0D;&#x0A;     1.22&#x0D;&#x0A;     1.12&#x0D;&#x0A;     1.23&#x0D;&#x0A;     1.24&#x0D;&#x0A;- Update references to refactored element" description="Move folders" destination="=01PJT/src" element1="src/1.19" element2="src/1.15" element3="src/1.16" element4="src/1.17" element5="src/1.18" element6="src/1.22" element7="src/1.12" element8="src/1.23" element9="src/1.24" files="0" flags="589830" folders="9" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1706090302743" units="0" version="1.0"/>
+</session>

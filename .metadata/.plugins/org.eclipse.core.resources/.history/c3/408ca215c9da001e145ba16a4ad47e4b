@@ -1,0 +1,74 @@
+package spring.service.aop.advice;
+
+import java.lang.reflect.Method;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.aop.AfterReturningAdvice;
+import org.springframework.aop.MethodBeforeAdvice;
+import org.springframework.aop.ThrowsAdvice;
+
+public class PojoAspectJ {
+	
+	public PojoAspectJ() {
+		System.out.println(":: PojoAspectJ Default Constructor");
+	}
+	
+//	@Pointcut("execution(* *.getMessage(..))")
+//	public void work() {
+//		System.out.println("work() pointcut call..............");
+//	}
+	
+	public void before(JoinPoint joinPoint){
+		
+		
+		System.out.println("[before LOG]" +getClass() + ".before() start...");
+		System.out.println("[before LOG] Å¸°Ù °´Ã¼ : " + joinPoint.getTarget().getClass().getName());
+		System.out.println("[before LOG] Å¸°Ù °´Ã¼ÀÇ È£ÃâµÉ method : " +joinPoint.getSignature().getName());
+		
+		if(joinPoint.getArgs().length != 0) {
+			System.out.println("[before LOG] Å¸°Ù °´Ã¼ÀÇ È£ÃâÇÒ method¿¡ Àü´ÞµÇ´Â argument : "+ joinPoint.getArgs()[0]);
+		}
+		
+		System.out.println("[before LOG]" +getClass()+".before() end....");
+	}
+
+	public Object invoke(MethodInvocation invocation) throws Throwable {
+		 
+		System.out.println("[Around before]"+getClass() + ".invoke() start...");
+		System.out.println("[before LOG] tagetObject call method" + invocation);
+		if(invocation.getArguments().length != 0) {
+			System.out.println("[Around before] tagetObject method Àü´Þ argument : "+ invocation.getArguments()[0]);
+		}
+		
+		Object obj = invocation.proceed();
+		
+		System.out.println("[Around after] Å¸°Ù °´Ã¼ÀÇ È£ÃâÈÄ return value :"+ obj	);
+		System.out.println("[Around after]"+getClass() + ".invoke() end...");
+		
+		return obj;
+	}
+
+	public void afterReturning(Object returnValue, Method method, Object[] args, Object target) throws Throwable {
+		System.out.println("[after LOG]" + getClass()+ ".afterReturning() start...");
+		System.out.println("[after LOG] tagetObject call method" +method);
+		System.out.println("[after LOG] Å¸°Ù °´Ã¼ÀÇ È£Ãâ ÈÄ return value : "+ returnValue);
+		System.out.println("[after LOG]" + getClass() + ".afterReturning() end...");
+		
+	}
+	
+	public void afterThrowing(Throwable throwable) {
+		System.out.println("[exception]" + getClass()+ ".afterThrowing() start...");
+		System.out.println("[exception] Exception ¹ß»ý...");
+		System.out.println("[exception] Exception Message : "+ throwable.getMessage());
+		System.out.println("[exception]" + getClass() + ".afterThrowing() end...");
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package spring.service.aop.test;
+
+public class MessageTestAppUseSpringAOP01 {
+
+}

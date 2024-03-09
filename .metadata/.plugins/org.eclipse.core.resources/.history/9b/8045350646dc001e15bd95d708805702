@@ -1,0 +1,6 @@
+package spring.web.test;
+
+
+public class TestController {
+
+}

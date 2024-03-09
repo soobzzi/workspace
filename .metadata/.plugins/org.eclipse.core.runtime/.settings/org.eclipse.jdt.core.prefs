@@ -1,0 +1,38 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/ehfdk/.m2/repository
+org.eclipse.jdt.core.codeComplete.argumentPrefixes=
+org.eclipse.jdt.core.codeComplete.argumentSuffixes=
+org.eclipse.jdt.core.codeComplete.fieldPrefixes=
+org.eclipse.jdt.core.codeComplete.fieldSuffixes=
+org.eclipse.jdt.core.codeComplete.localPrefixes=
+org.eclipse.jdt.core.codeComplete.localSuffixes=
+org.eclipse.jdt.core.codeComplete.staticFieldPrefixes=
+org.eclipse.jdt.core.codeComplete.staticFieldSuffixes=
+org.eclipse.jdt.core.codeComplete.staticFinalFieldPrefixes=
+org.eclipse.jdt.core.codeComplete.staticFinalFieldSuffixes=
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
+org.eclipse.jdt.core.compiler.release=disabled
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.com.springsource.org.aspectj.weaver=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/10.spring/3.0.5/spring-framework-3.0.2.RELEASE-dependencies/org.aspectj/com.springsource.org.aspectj.weaver/1.6.8.RELEASE/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.commons-dbcp-1.4=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/z.dependency/commons-dbcp-1.4/commons-dbcp-1.4.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.commons-pool-1.6=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/z.dependency/commons-pool-1.6/commons-pool-1.6.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.jdbc-driver=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/05.JDBC/driver/11gXE/ojdbc6.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.junit-4.13.2=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/\uC218\uC5C5\uC790\uB8CC/junit-4.13.2/hamcrest-core-1.3.jar"/>\r\n\t<archive path\="C\:/\uC218\uC5C5\uC790\uB8CC/junit-4.13.2/junit-4.13.2.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.log4j-1.2.17=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/12.MyBatis/mybatis-3.4.6/lib/log4j-1.2.17.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.mybatis-3.4.6=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/12.MyBatis/mybatis-3.4.6/mybatis-3.4.6.jar"/>\r\n\t<archive path\="C\:/z.utility/12.MyBatis/mybatis-3.4.6/lib/slf4j-api-1.7.25.jar"/>\r\n\t<archive path\="C\:/z.utility/12.MyBatis/mybatis-3.4.6/lib/slf4j-log4j12-1.7.25.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.mybatis-spring-1.3.1=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/12.MyBatis/mybatis-spring-1.3.1/mybatis-spring-1.3.1.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.spring-framework-3.0.2.RELEASE-dependencies=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/10.spring/3.0.5/spring-framework-3.0.2.RELEASE-dependencies.zip"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.spring-framework-5.2.5.RELEASE=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-aop-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-aspects-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-beans-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-context-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-context-indexer-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-context-support-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-core-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-expression-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-instrument-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-jcl-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-jdbc-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-jms-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-messaging-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-orm-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-oxm-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-test-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-tx-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-web-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-webflux-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-webmvc-5.2.5.RELEASE.jar"/>\r\n\t<archive path\="C\:/z.utility/10.spring/spring-framework-5.2.5.RELEASE/libs/spring-websocket-5.2.5.RELEASE.jar"/>\r\n</userlibrary>\r\n

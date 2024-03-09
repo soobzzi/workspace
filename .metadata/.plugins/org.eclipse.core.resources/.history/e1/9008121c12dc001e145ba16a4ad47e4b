@@ -1,0 +1,32 @@
+package com.model2.mvc.view.purchase;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.model2.mvc.framework.Action;
+import com.model2.mvc.service.purchase.vo.PurchaseVO;
+import com.model2.mvc.service.user.vo.UserVO;
+
+public class UpdatePurchaseViewAction extends Action{
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		
+		PurchaseVO pur = new Purchase();
+		UserVO user = session.getAttribute("user");
+		
+		아이디 방법 이름 연락처 주소 요청사항 배송희망일자
+		
+		pur.setBuyer();
+		pur.setPaymentOption(null);
+		pur.setReceiverName(null);
+		pur.setReceiverPhone(null);
+		pur.setDivyAddr(null);
+		pur.setDivyRequest(null);
+		pur.setDivyDate(null);
+		
+		
+		return null;
+	}
+
+}

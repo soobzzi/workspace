@@ -1,0 +1,14 @@
+//BranchProjectTracker__C\:\\Users\\bitcamp\\git\\01first\\.git_bug/dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\z.studyGit</project>\r\n</projects>
+//BranchProjectTracker__C\:\\Users\\bitcamp\\git\\01first\\.git_new/dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\z.studyGit</project>\r\n</projects>
+//BranchProjectTracker__C\:\\Users\\bitcamp\\git\\01first\\.git_test/dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\z.studyGit</project>\r\n</projects>
+//BranchProjectTracker__C\:\\git\\repository01\\.git_new/dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\01.Model2MVCShop(stu)</project>\r\n</projects>
+//BranchProjectTracker__C\:\\git\\repository01\\.git_test/dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\01.Model2MVCShop(stu)</project>\r\n</projects>
+//BranchProjectTracker__C\:\\git\\repository\\.git_test/dev=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\03.Model2MVCShop(EL,JSTL)</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\bitcamp\\git\\01first\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\z.studyGit</project>\r\n</projects>
+BranchProjectTracker__C\:\\git\\repository01\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\01.Model2MVCShop(stu)</project>\r\n</projects>
+BranchProjectTracker__C\:\\git\\repository\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>\\03.Model2MVCShop(EL,JSTL)</project>\r\n</projects>
+always_use_staging_view=false
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>\uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4.</message>\r\n<message>COMMIT \: 24.3.5 \: Purchase 02&\#x0A;&\#x0A;datail&\#x0A;\: \uC544\uC9C1\uB3C4 purchase 1\uBC88 \uC9C4\uD589\uC911</message>\r\n<message>COMMIT \: 24.03.03 \: PURCHASE01&\#x0A;&\#x0A;DETAIL&\#x0A;\: addpurchase.jsp\uAE4C\uC9C0 \uC644\uC131</message>\r\n<message>COMMIT \: 24.2.26&\#x0A;&\#x0A;DETAIL&\#x0A;\: Add purchase \uC0DD\uC131\uC911</message>\r\n<message>COMMIT \: 2.26 FIRST</message>\r\n<message>24.2.22 EL\uC218\uC815\uC644\uB8CC / 03\uBC88\uC9F8 \uB9AC\uD329\uD1A0\uB9C1 \uC644\uB8CC</message>\r\n<message>FirstCommit\:2024.2.22\:master&\#x0A;</message>\r\n<message>Merge branch &apos;new/dev&apos;&\#x0A;</message>\r\n<message>new/dev\:03\:HelloApp.java\uCD94\uAC00</message>\r\n<message>test/dev\:02\:HelloApp.java\uCD94\uAC00</message>\r\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
+show_initial_config_dialog=false

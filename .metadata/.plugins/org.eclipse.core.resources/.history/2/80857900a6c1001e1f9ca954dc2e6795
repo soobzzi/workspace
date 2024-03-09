@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "ko">
+
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+
+<body>
+	<form method = "get"></form>
+	<table  border = "1" width = "700" height = "300" align = "center">
+		<th>개인정보</th>
+		<th></th>
+		<tr>
+			<td>* 이름(한글실명)</td>
+			<td><input type = "text" name = "name"></td>		
+		</tr>
+		
+		<tr>
+			<td>* 성별</td>
+			<td><input type = "radio" name = "sex">남
+				<input type = "radio" name = "sex">여
+			</td>
+		</tr>
+		<tr>
+			<td>* 생년월일</td>
+			<td><input>년 
+			<select><optgroup>
+					<option value = "0">선택</option>
+					<option value = "1">1</option>
+					<option value = "2">2</option>
+					<option value = "3">3</option>
+					<option value = "4">4</option>
+					<option value = "5">5</option>
+					<option value = "6">6</option>
+					<option value = "7">7</option>
+					<option value = "8">8</option>
+					<option value = "9">9</option>
+					<option value = "10">10</option>
+					<option value = "11">11</option>
+					<option value = "12">12</option>
+					</optgroup>		
+			</select>월
+	
+			<select><optgroup = "date">
+					<option value = "0">선택</option>
+					<option value = "1">1</option>
+					<option value = "2">2</option>
+					<option value = "3">3</option>
+					<option value = "4">4</option>
+					<option value = "5">5</option>
+					<option value = "6">6</option>
+					<option value = "7">7</option>
+					<option value = "8">8</option>
+					<option value = "9">9</option>
+					<option value = "10">10</option>
+					<option value = "11">11</option>
+					<option value = "12">12</option>
+					</optgroup>일
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>* 최종학력</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>* 직업</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>* 결혼여부</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>* 연락처</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>* 거주지주소</td>
+			<td></td>
+		</tr>
+		</form>
+
+		
+		
+	
+	
+	</table>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package spring.model2.control;
+
+public class ViewResolver {
+
+}

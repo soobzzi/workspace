@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;jdbc_homework.Empmanager03&apos; to &apos;EmpManager03&apos;&#x0D;&#x0A;- Original project: &apos;02JDBC&apos;&#x0D;&#x0A;- Original element: &apos;jdbc_homework.Empmanager03&apos;&#x0D;&#x0A;- Renamed element: &apos;jdbc_homework.EmpManager03&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Empmanager03&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;jdbc_homework{Empmanager03.java[Empmanager03" matchStrategy="1" name="EmpManager03" qualified="false" references="true" similarDeclarations="false" stamp="1707826424076" textual="false" version="1.0"/>
+</session>

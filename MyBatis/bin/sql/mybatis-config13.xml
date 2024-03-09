@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+ 		 PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ 		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+  						
+<!--	mybatis-config.xml :: MyBatis Framework  MetaData -->
+<configuration>
+
+	
+	<properties resource="sql/jdbc.properties"/> <!-- 파싱 ㄱㄱ -->
+	
+	
+	<settings>
+		<setting name="callSettersOnNulls" value="false"/>
+	</settings>	
+	
+	<!-- 3. FQCN(Full Qualified Class Name) Alias(별칭관리) -->
+	<typeAliases> <!--  import기능이 ..!?!? 슬슬제공  -->
+		<typeAlias alias="user" type="mybatis.service.domain.User" />
+	</typeAliases>
+	
+	
+	<!-- <environments default="development">
+	
+		<environment id="development">
+			< Transaction Definition 
+			<transactionManager type="JDBC"/>
+			 javax.sql.DataSource Definition       
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}"/>
+				<property name="url" value="${url}"/>
+				<property name="username" value="${username}"/>
+				<property name="password" value="${password}"/>
+			</dataSource>
+		</environment>
+	  
+	</environments>
+ -->
+  <!-- SQL Definition :: file include -->
+  <mappers>
+    <mapper resource="sql/UserMapper10.xml"/>
+     
+  </mappers>
+
+</configuration>

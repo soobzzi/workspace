@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="CommitDialog.showUntracked" value="true"/>
+	<list key="CommitDialog.authorValues">
+		<item value="ehfdk &lt;ehfdkrkwk101@naver.com&gt;"/>
+		<item value="ehfdk &lt;ehfdk@soobin&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="ehfdk &lt;ehfdkrkwk101@naver.com&gt;"/>
+		<item value="ehfdk &lt;ehfdk@soobin&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="381"/>
+		<item key="DIALOG_Y_ORIGIN" value="6"/>
+		<item key="DIALOG_WIDTH" value="530"/>
+		<item key="DIALOG_HEIGHT" value="651"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="405"/>
+		<item key="DIALOG_Y_ORIGIN" value="266"/>
+		<item key="DIALOG_WIDTH" value="482"/>
+		<item key="DIALOG_HEIGHT" value="179"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-31"/>
+		<item key="DIALOG_Y_ORIGIN" value="-131"/>
+		<item key="DIALOG_WIDTH" value="530"/>
+		<item key="DIALOG_HEIGHT" value="471"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item key="DIALOG_X_ORIGIN" value="346"/>
+		<item key="DIALOG_Y_ORIGIN" value="52"/>
+		<item key="DIALOG_WIDTH" value="638"/>
+		<item key="DIALOG_HEIGHT" value="622"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="true"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+</section>

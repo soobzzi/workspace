@@ -1,0 +1,8 @@
+package com.model2.mvc.service.product;
+
+public interface ProductDao {
+	
+	public void insertProduct(Product product) throws Exception{
+		
+	}
+}
